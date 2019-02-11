@@ -1,4 +1,4 @@
-# barotropic_quasigeostrophic_flow_solver
+# Pseudo-spectral solver for barotropic quasi-geostrophic flow in a basin
 This collection of Julia scripts solves for nonlinear barotropic quasi-geostrophic ocean circulation in a basin. 
 There are options to solve for a single gyre, symmetric double gyres, or asymmetric double gyres. The solver is 
 pseudo-spectral (advection is de-aliased by the 2/3 rule), includes explicit 4th-order Runge-Kutta time integration, and 
